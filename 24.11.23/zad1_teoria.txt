@@ -1,0 +1,2 @@
+Pomagają programistą w tym by nie popełniać błędu można napisać kod który się bedzie powtarzał to napewno w jakimś stopniu niwelują ten problem,
+dobra pętle bardzo zaoszczędzą nam czas i pozwolą pisać nam progrsmy które zajęły by wiele czasu
