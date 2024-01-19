@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Formularz do szkoły</title>
+    <meta charset="UTF-8">
+    <style>
+        #fo{
+            font-weight: bold;
+            font-size: 14pt;
+        }
+        p.wyk{
+            font-weight: bold;
+            font-size: 11pt;
+        }
+    </style>
+</head>
+<body>
+    <form action="skrypt_form.php" method="post">
+        <p id="fo"> Formularz</p>
+        Nazwisko:<br>
+        <input type="text" name="nazw" value=" " size="30"><br>
+        Imię:<br>
+        <input type="text" name="im" value=" " size="30"><br>
+        PESEL:<br>
+        <input type="text" name="pesel" value=" " size="30"><br>
+        Adres e-mail:<br>
+        <input type="text" name="adr" value=" " size="30"><br>
+        
+        <p class="ple">Płeć:</p>
+        <input type="radio" value="Chłopak"name="ple" 
+        checked>Chłopak<br>
+        <input type="radio" value="dziewczyna" name="ple"> Dziewczyna<br>
+        Wiek:<br>
+        <input type="text" name="wiek" value=" " size="30"><br><br>
+        <p class="miasto">Wybór miasta:</p>
+        <select name="miasto[]">
+            <option value="Kielce">Kielce</option>
+            <option value="Poznań">Poznań</option>
+            <option value="Lublin">Lublin</option>
+            <option value="Kraków">Kraków</option>
+            <option value="Częstochowa">Częstochowa</option>
+            <option value="Warszawa">Warszawa</option>
+        </select>
+    
+        <p class="języki">Wybór języka:</p>
+        <select name="języki[]">
+            <option value="Język angielski">Język angielski</option>
+            <option value="Język niemiecki">Język niemiecki</option>
+            <option value="Język francuski">Język francuski</option>
+            <option value="Język włoski">Język włoski</option>
+            <option value="Język rosyjski">Język rosyjski</option>
+            <option value="Język hiszpański">Język hiszpański</option>
+        </select>
+        <p><input type="checkbox" name="opcje" maxlength="1">
+        Zgadzam sie na przetwarzanie moich danych osobowych </p>
+        <input type="submit" value="Wyślij" name="wyslij">
+        <input type="reset" value="Wyczyść" name="zeruj">
+    </form>
+</body>
+</html>
