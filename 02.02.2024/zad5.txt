@@ -1,0 +1,2 @@
+GET http://localhost/02.02.2024/zad4.php?imie=Patryk&nazwisko=Chlewicki
+POST  http://localhost/02.02.2024/zad3.php

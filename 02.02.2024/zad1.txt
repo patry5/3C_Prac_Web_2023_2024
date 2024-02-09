@@ -1,0 +1,15 @@
+GET 
+zalety
+prosta implementacja
+dane widoczne w URL
+wady
+ograniczona ilość danych do przesłania
+Bezpieczeństwo danych może być zagrożone
+POST
+zalety
+Dane niewidoczne w URL 
+Brak ograniczeń co do ilości danych
+Bezpieczeństwo danych
+wady 
+skomplikowana implementacja 
+Niezapisywane w historii przeglądarki
