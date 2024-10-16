@@ -1,0 +1,25 @@
+Rozpocznij
+n <---0
+pobierz n
+jeżeli n = 0 zakończ program w przeciwnym razie n + suma i wpisz  
+
+Rozpocznij
+pobierz a 
+pobierz b
+pobierz c
+jeżeli a>=b i a>=c wyświetl a w przeciwnym razie sprawdź czy 
+b>=a i b>=c jeżeli tak wyświetl b w przeciwnym razie wypisz c 
+zakończ program
+
+Rozpocznij
+pobierz n 
+jeżeli n / 2 wypisz parzysta w przeciwnym razie wypisz nie parzysta
+zakończ program
+
+Rozpocznij 
+pobierz n
+silnia <--- 1
+i <--- 1
+jeżeli i<=n 
+silnia<--- silnia*i
+i+1 w przeciwnym razie zakończ program  
